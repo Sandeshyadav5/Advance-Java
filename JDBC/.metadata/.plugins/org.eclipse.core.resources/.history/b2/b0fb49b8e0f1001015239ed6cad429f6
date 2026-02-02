@@ -1,0 +1,20 @@
+package com.rays.jdbc.preparedstatement;
+
+public class TestMarksheetModel {
+	public static void main(String[] args) throws Exception {
+		adds();
+	}
+	public static void adds() throws Exception{
+		MarksheetModel model=new MarksheetModel();
+		MarksheetBean beans= new MarksheetBean();
+		
+		beans.setId(1);
+		beans.setRollNo(33634587);
+		beans.setName("sandesh");
+		beans.setChem(76);
+		beans.setPhy(89);
+		beans.setMaths(98);
+		model.adds(beans);
+	}
+
+}

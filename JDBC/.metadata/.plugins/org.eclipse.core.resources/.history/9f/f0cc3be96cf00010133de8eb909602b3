@@ -1,0 +1,51 @@
+package com.rays.jdbc.preparedstatement;
+
+import java.text.SimpleDateFormat;
+import java.sql.SQLException;
+
+public class TestUserModel {
+	public static void main(String[] args) throws Exception, SQLException {
+//		add();
+		//delete();
+		update();
+	}
+
+	public static void add() throws Exception, SQLException {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		UserModel model = new UserModel();
+		UserBean bean = new UserBean();
+
+		bean.setId(4);
+		bean.setFirstName("durgesh");
+		bean.setLastName("lohiya");
+		bean.setLogin("durgesh@gmail.com");
+		bean.setPassword("lohiyav123");
+		bean.setDob(sdf.parse("2002-09-05"));
+		model.add(bean);
+	}
+	
+		public static void delete() throws Exception, SQLException {
+			
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+
+			bean.setId(1);
+			model.delete(bean);
+	}
+		public static void update()  throws Exception{
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+			
+			bean.setFirstName("durgesh");
+			bean.setLastName("lo0hiya");
+			bean.setLogin("durgesh@gmail.com");
+			bean.setPassword("lohiyav123");
+			bean.setDob(sdf.parse("2003-09-05"));
+			bean.setId(3);
+			model.update(bean);
+			
+
+		}
+
+}

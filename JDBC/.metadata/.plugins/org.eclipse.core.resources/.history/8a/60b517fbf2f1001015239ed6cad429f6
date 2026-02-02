@@ -1,0 +1,80 @@
+package com.rays.jdbc.preparedstatement;
+
+import java.text.SimpleDateFormat;
+
+
+public class TestUserModel {
+	public static void main(String[] args) throws Exception {
+//		add();
+		//delete();
+//		update();
+		//testfindByLogin();
+		testfindByPk();
+	}
+
+	public static void add() throws Exception {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		UserModel model = new UserModel();
+		UserBean bean = new UserBean();
+
+		bean.setId(3);
+		bean.setFirstName("durgesh");
+		bean.setSecondName("lohiya");
+		bean.setLogin("durgesh@gmail.com");
+		bean.setPassword("lohiyav123");
+		bean.setDob(sdf.parse("2002-09-05"));
+		model.add(bean);
+	}
+	
+		public static void delete() throws Exception {
+			
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+
+			bean.setId(1);
+			model.delete(bean);
+	}
+		public static void update()  throws Exception{
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+			bean.setId(2);
+			bean.setFirstName("durgesh");
+			bean.setSecondName("lo0hiya");
+			bean.setLogin("durgesh@gmail.com");
+			bean.setPassword("lohiyav123");
+			bean.setDob(sdf.parse("2003-09-05"));
+			model.update(bean);
+			
+
+		}
+		public static void testfindByLogin() throws Exception {
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+			
+			bean= model.findByLogin("durgesh@gmail.com");
+			
+			System.out.println(bean.getId());
+			System.out.println(bean.getFirstName());
+			System.out.println(bean.getSecondName());
+			System.out.println(bean.getLogin());
+			System.out.println(bean.getPassword());
+			System.out.println(bean.getDob());
+			
+			
+		}
+		public static void testfindByPk() throws Exception {
+			UserModel model = new UserModel();
+			UserBean bean = new UserBean();
+			
+			bean= model.findByPk(2);
+			
+			System.out.println(bean.getId());
+			System.out.println(bean.getFirstName());
+			System.out.println(bean.getSecondName());
+			System.out.println(bean.getLogin());
+			System.out.println(bean.getPassword());
+			System.out.println(bean.getDob());
+		}
+
+}

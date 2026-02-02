@@ -1,0 +1,63 @@
+
+Jan 21, 2026 13:51:55.135 NEW SESSION
+Jan 21, 2026 13:51:55.136 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 21, 2026 13:52:03.251 [9644:476:0121/135203.250:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 13:52:29.308 [9644:476:0121/135229.307:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 13:52:53.761 [9644:11532:0121/135253.760:ERROR:base\metrics\persistent_memory_allocator.cc:886] Corruption detected in shared-memory segment.
+Jan 21, 2026 13:53:21.551 [9644:476:0121/135321.550:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 13:55:08.276 [9644:476:0121/135508.274:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 13:58:45.364 [9644:476:0121/135845.363:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 14:15:53.619 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 21, 2026 14:15:57.792 [15264:10892:0121/141557.791:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 14:16:27.225 [15264:10892:0121/141627.223:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan 21, 2026 14:17:23.401 [15264:10892:0121/141723.400:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+
+Jan 31, 2026 16:31:49.651 NEW SESSION
+Jan 31, 2026 16:31:49.651 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 31, 2026 16:31:57.122 [6368:10008:0131/163157.122:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 16:32:21.976 [6368:10008:0131/163221.976:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 16:33:15.856 [6368:10008:0131/163315.855:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Jan 31, 2026 17:29:48.960 NEW SESSION
+Jan 31, 2026 17:29:48.960 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 31, 2026 17:29:54.961 [12516:6652:0131/172954.961:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:30:23.600 [12516:6652:0131/173023.600:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:31:13.870 [12516:6652:0131/173113.869:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:31:59.841 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 31, 2026 17:32:06.476 [13196:3140:0131/173206.476:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:32:33.793 [13196:3140:0131/173233.793:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:33:19.393 [13196:3140:0131/173319.391:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:34:43.417 [13196:3140:0131/173443.416:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:38:35.62 [13196:3140:0131/173835.061:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jan 31, 2026 17:44:41.649 [13196:3140:0131/174441.649:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Feb 02, 2026 14:32:39.365 NEW SESSION
+Feb 02, 2026 14:32:39.365 Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 02, 2026 14:32:57.717 [3976:732:0202/143257.717:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 14:33:27.345 [3976:732:0202/143327.345:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 14:34:16.409 [3976:732:0202/143416.409:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 14:36:04.627 [3976:732:0202/143604.626:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 14:39:19.744 [3976:732:0202/143919.743:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 14:45:29.270 [3976:732:0202/144529.269:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 02, 2026 15:16:25.637 [3976:11308:0202/151625.629:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:16:25.630] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 15:16:43.128 [3976:732:0202/151643.127:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 15:59:44.03 [3976:11308:0202/155943.962:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:59:43.963] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 15:59:49.165 [3976:11308:0202/155949.165:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:59:49.164] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 15:59:51.136 [3976:732:0202/155951.134:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:04:33.743 [3976:732:0202/160433.739:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 16:04:37.923 [3976:11308:0202/160437.922:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:04:37.918] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:07:25.394 [3976:732:0202/160725.394:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:07:29.621 [3976:732:0202/160729.621:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:11:04.689 [3976:732:0202/161104.688:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 16:11:09.105 [3976:11308:0202/161109.105:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:11:09.104] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:12:31.352 [3976:732:0202/161231.351:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 16:13:05.902 [3976:11308:0202/161305.901:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:13:05.901] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:13:07.428 [3976:732:0202/161307.427:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:13:10.632 [3976:11308:0202/161310.631:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:13:10.632] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:13:15.889 [3976:11308:0202/161315.888:ERROR:services\device\usb\usb_descriptors.cc:162] Device descriptor parsing error.
+Feb 02, 2026 16:13:15.890 [3976:11308:0202/161315.889:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:13:15.889] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_1bcf&pid_28c0#5&1a5b27fb&0&5#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+Feb 02, 2026 16:13:16.918 [3976:11308:0202/161316.917:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:13:16.917] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 02, 2026 16:15:14.541 [3976:732:0202/161514.539:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:15:14.813 [3976:11308:0202/161514.812:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:15:14.812] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:15:19.438 [3976:732:0202/161519.437:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 02, 2026 16:15:21.426 [3976:11308:0202/161521.425:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:15:21.423] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

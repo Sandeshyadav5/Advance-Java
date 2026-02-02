@@ -1,0 +1,43 @@
+package com.rays.transaction;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.ResourceBundle;
+
+public class TestTransaction {
+	public static void main(String[] args) throws Exception {
+		ResourceBundle rb = ResourceBundle.getBundle("com.rays.bundle.app");
+
+		String driver = rb.getString("driver");
+		String url = rb.getString("url");
+		String u = rb.getString("u");
+		String p = rb.getString("p");
+		Connection conn =null;
+		try{
+		Class.forName("driver");
+	 conn=DriverManager.getConnection("url","u","p");
+		conn.setAutoCommit(false);
+		Statement stmt=conn.createStatement();
+		int i = stmt.executeUpdate(
+				"insert into st_user values(1, 'Suresh', 'Yadav', 'suresh@gmail.com', 'suresh123', '2001-01-01')");
+
+		i = stmt.executeUpdate(
+				"insert into st_user values(7, 'Suresh', 'Yadav', 'suresh@gmail.com', 'sur '2001-01-01')");
+
+		i = stmt.executeUpdate(
+				"insert into st_user values(8, 'Suresh', 'Yadav', 'suresh@gmail.com', 'suresh123', '2001-01-0)");
+		conn.commit();
+		System.out.println(i+"transaction coplited:(records saved)");
+
+		conn.close();
+		stmt.close();
+
+
+		}catch (Exception e) {
+//			conn.rollback();
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.rays.jdbc.preparedstatement;
+
+import java.text.SimpleDateFormat;
+import ava.sql.SQLException;
+public class TestUserModel {
+	public static void main(String[] args) throws Exception {
+		add();
+	}
+	public static void add() throws Exception{
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+		UserModel model=new UserModel();
+		UserBean bean=new UserBean();
+		
+		bean.setId(1);
+		bean.setFirstName("sandesh");
+		bean.setLastName("Yadav");
+		bean.setLogin("sandesh@gmail.com");
+		bean.setPassword("yadav123");
+		bean.setDob(sdf.parse("2001-09-05"));
+		model.add(bean);
+	}
+
+}
