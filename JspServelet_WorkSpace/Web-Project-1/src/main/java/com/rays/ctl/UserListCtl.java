@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.rays.bean.UserBean;
 import com.rays.modle.UserModel;
-@WebServlet ("/UserListCtl")
+@WebServlet ("/UserListCtl.do")
 public class UserListCtl extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -8,29 +8,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+	
 	<%
+	String msg = (String) request.getAttribute("msg");
 	String smsg = (String) request.getAttribute("successMsg");
 	String errorMsg = (String) request.getAttribute("errorMsg");
 	%>
 	<%@ include file="header.jsp"%>
 	<div align="center">
 		<h1>Login</h1>
-		<%
-		if (smsg != null) {
-		%>
-		<h3 style="color: green"><%=smsg%></h3>
-		<%
-		}
-		%>
-
-		<%
-		if (errorMsg != null) {
-		%>
-		<h3 style="color: red"><%=errorMsg%></h3>
-		<%
-		}
-		%>
-
+		<h2><%=msg != null ? msg : ""%></h2>
 		<form action="LoginCtl" method="post">
 
 			<table>

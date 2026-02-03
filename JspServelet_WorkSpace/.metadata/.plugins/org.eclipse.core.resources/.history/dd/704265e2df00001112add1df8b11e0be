@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@ include file="header.jsp"%>
+
+<div align="center">
+<form action="UserCtl" method="post">
+<h1>Student Form</h1>
+<table>
+<tr><th>First Name</th><td><input type="text" name="firstName" value="" placeholder="Enter  first name"></td></tr>
+<tr><th>Last Name</th><td><input type="text" name="lastName" value="" placeholder="Enter  last name"></td></tr>
+<tr><th>Login</th><td><input type="email" name="login" value="" placeholder="Enter your email"></td></tr>
+<tr><th>Password</th><td><input type="password" name="password" value="" placeholder="Enter your password"></td></tr>
+<tr><th>DOB</th><td><input type="date" name="dob" value="" ></td></tr>
+<tr><th></th><td><input type="Submit" name="operation" value="save"></td></tr>
+</table>
+</form>
+</div><%@ include file="footer.jsp"%>
+</body>
+</html>

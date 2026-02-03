@@ -10,7 +10,7 @@
 <%@ include file="header.jsp"%>
 
 <div align="center">
-<form action="UserCtl" method="post">
+<form action="UserCtl.do" method="post">
 <h1>Student Form</h1>
 <table>
 <tr><th>First Name</th><td><input type="text" name="firstName" value="" placeholder="Enter  first name"></td></tr>

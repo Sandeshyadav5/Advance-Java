@@ -1,0 +1,53 @@
+package com.rays.ctl;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.rays.bean.UserBean;
+import com.rays.modle.UserModel;
+
+
+@WebServlet("/EditCtl")
+public class EditCtl extends HttpServlet {
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.sendRedirect("EditView.jsp");
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+		UserModel model=new UserModel();
+		UserBean bean =new UserBean();
+		
+		System.out.println("In do post method...........");
+		String firstName=request.getParameter("firstName");
+		String lastName=request.getParameter("lastName");
+		String login=request.getParameter("login");
+		String password=request.getParameter("password");
+		String dob=request.getParameter("dob");
+		System.out.println(firstName + "\n" + lastName + "\n" + login + "\n" + password + "\n" + dob);
+
+		try {
+
+			bean.setFirstName(firstName);
+			bean.setLastName(lastName); 
+			bean.setLogin(login);
+			bean.setPassword(password);
+			bean.setDob(sdf.parse(dob));
+
+			model.update(bean);
+			response.sendRedirect("EditView.jsp");
+			request.setAttribute("smg", "user updated successfully");
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

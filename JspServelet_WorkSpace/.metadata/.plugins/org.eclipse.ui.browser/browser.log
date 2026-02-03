@@ -61,3 +61,29 @@ Feb 02, 2026 16:15:14.541 [3976:732:0202/161514.539:ERROR:google_apis\gcm\engine
 Feb 02, 2026 16:15:14.813 [3976:11308:0202/161514.812:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:15:14.812] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
 Feb 02, 2026 16:15:19.438 [3976:732:0202/161519.437:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
 Feb 02, 2026 16:15:21.426 [3976:11308:0202/161521.425:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:15:21.423] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 16:45:47.707 [3976:732:0202/164547.703:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 19:45:51.987 [3976:11308:0202/194551.985:ERROR:components\device_event_log\device_event_log_impl.cc:198] [19:45:51.981] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 02, 2026 19:45:53.659 [3976:732:0202/194553.658:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 02, 2026 19:45:53.817 [3976:732:0202/194553.817:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 03, 2026 12:49:44.301 [3976:732:0203/124944.300:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -106
+Feb 03, 2026 12:49:44.375 [3976:9492:0203/124944.374:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Feb 03, 2026 12:49:45.910 [3976:9492:0203/124945.910:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Feb 03, 2026 12:49:46.781 [3976:11308:0203/124946.781:ERROR:components\device_event_log\device_event_log_impl.cc:198] [12:49:46.781] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 03, 2026 12:49:48.172 [3976:9492:0203/124948.172:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Feb 03, 2026 12:53:19.195 Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 03, 2026 12:53:25.264 [4308:4056:0203/125325.263:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 12:53:53.557 [4308:4056:0203/125353.556:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 12:54:51.842 [4308:4056:0203/125451.842:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 12:56:44.750 [4308:4056:0203/125644.750:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 12:59:44.00 [4308:4056:0203/125944.000:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 13:06:03.869 [4308:4056:0203/130603.868:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Feb 03, 2026 13:35:54.447 [4308:4056:0203/133554.442:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 03, 2026 14:13:24.917 [4308:4436:0203/141324.914:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:13:24.911] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 03, 2026 14:13:29.904 [4308:4436:0203/141329.903:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:13:29.903] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 03, 2026 14:49:50.250 [4308:4056:0203/144950.238:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 03, 2026 15:07:34.955 [4308:4436:0203/150734.955:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:07:34.953] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 03, 2026 15:07:50.218 [4308:4056:0203/150750.176:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 03, 2026 15:07:50.219 [4308:4056:0203/150750.190:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 03, 2026 15:13:17.325 [4308:4056:0203/151317.315:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Feb 03, 2026 15:13:17.722 [4308:4056:0203/151317.722:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Feb 03, 2026 15:13:31.729 [4308:4056:0203/151331.729:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
